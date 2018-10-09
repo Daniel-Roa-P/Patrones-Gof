@@ -1,21 +1,53 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package factorymethod;
 
-/**
- *
- * @author danbr
- */
-public class FactoryMethod {
+import Creadores.CreadorAbstracto;
+import Creadores.CreadorCarro;
+import Creadores.CreadorMoto;
+import Productos.Vehiculo;
+import java.util.Scanner;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class FactoryMethod {
+    
+    static String opcion;
+    static CreadorAbstracto creador;
+    static Vehiculo vehiculo;
+    static Scanner sc = new Scanner(System.in);
+        
+    public static void operacion(){
+        
+        System.out.println("¿Desea una moto o un carro?");
+        
+        while(true){
+        
+            opcion=sc.next();
+        
+            if("moto".equals(opcion)){
+            
+                creador = new CreadorMoto();
+                break;
+            
+            }else if("carro".equals(opcion)){
+        
+                creador = new CreadorCarro();
+                break;
+            
+            }else{
+            
+                System.out.println("Digite bien los datos");
+            
+            }
+        }
+        
+        vehiculo=creador.crearVehiculo();
+        System.out.println(vehiculo.entrega());
+        
     }
+        
+    public static void main(String[] args) {
+
+        operacion();
+        
+    }   
     
 }

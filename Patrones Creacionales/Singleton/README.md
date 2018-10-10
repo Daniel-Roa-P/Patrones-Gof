@@ -1,4 +1,4 @@
-# Factory Method
+# Singleton
 
 DIAGRAMA DE CLASES:
 

@@ -1,4 +1,4 @@
-# Decorator
+# Facade
 
 DIAGRAMA DE CLASES:
 

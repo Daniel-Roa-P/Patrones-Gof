@@ -20,3 +20,4 @@ __Consecuencias__
 + Se controla el acceso de la instancia pues la clase encapsula a la misma, teniendo control sobre esta.
 + Se da una mejora en las variables globales pues reduce el espacio de nombres de estas, pues solo existen instancias.
 + Da lugar al refinamiento de representaciones y operaciones pues es más flexible con estas.
++ El excesivo uso de este patrón trae con sigo un anti patrón conocido como singletonitis.

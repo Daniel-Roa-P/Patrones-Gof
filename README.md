@@ -12,21 +12,21 @@ Como tal un patrón de diseño es aplicable en diversos problemas que posean una
 
 **Creacionales:** estos patrones nos facilitan de forma considerable la creación de instancias en nuestro proyecto, pues ofrecen al desarrollador una idea más clara en lo referente a la abstracción y encapsulamiento presentes en el código, estos son:
 
-+ Abstract Factory
-+ Factory Method
-+ Singleton
-+ Builder
-+ Prototype
++ [Abstract Factory](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Creacionales/AbstractFactory/README.md)
++ [Factory Method](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Creacionales/FactoryMethod/README.md)
++ [Singleton](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Creacionales/Singleton/README.md)
++ [Builder](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Creacionales/Builder/README.md)
++ [Prototype](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Creacionales/Protopype/README.md)
 
 **Estructurales:**  patrones que desempeñan la función de solucionar problemas en lo referente a las relaciones que existen entre las clases y objetos de modo que buscan reducir la dependencia extrema que exista entre ellos, estos son:
 
-+ Adpater
-+ Bridge
-+ Composite
-+ Decorator
-+ Facade
-+ Flyweight
-+ Proxy
++ [Adpater](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Estructurales/Adapter/README.md)
++ [Bridge](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Estructurales/Bridge/README.md)
++ [Composite](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Estructurales/Composite/README.md)
++ [Decorator](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Estructurales/Decorator/README.md)
++ [Facade](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Estructurales/Facade/README.md)
++ [Flyweight](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Estructurales/Flyweight/README.md)
++ [Proxy](https://github.com/DanielRoa20171020077/Patrones-Gof/blob/master/Patrones%20Estructurales/Proxy/README.md)
 
 **Comportamiento:** patrones con el propósito de solucionar problemas existentes en lo referente a las interacciones y responsabilidades que existen entre clases y objetos, estos son:
  
